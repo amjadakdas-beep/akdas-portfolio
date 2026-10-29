@@ -1,0 +1,182 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+  --background: #06070b;
+  --foreground: #f3f4f6;
+  --surface: #0f111a;
+  --surface-border: #1a1e2e;
+  --lime: #a3e635;
+  --cyan: #38bdf8;
+  --purple: #c084fc;
+  --pink: #f472b6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: var(--background);
+  color: var(--foreground);
+  overflow-x: hidden;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* ==========================================================
+   HUGE GRADIENT TEXT (SOFT FLOW)
+   ========================================================== */
+.hero-name-gradient {
+  background: linear-gradient(
+    120deg,
+    #ffffff 0%,
+    #a3e635 30%,
+    #38bdf8 60%,
+    #c084fc 85%,
+    #ffffff 100%
+  );
+  background-size: 250% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: soft-gradient-flow 8s cubic-bezier(0.16, 1, 0.3, 1) infinite alternate;
+}
+
+@keyframes soft-gradient-flow {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+/* Sub-heading Colorful Gradient */
+.text-gradient-sub {
+  background: linear-gradient(135deg, #a3e635 0%, #38bdf8 50%, #c084fc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ==========================================================
+   UNIQUE ANIMATED BUTTONS
+   ========================================================== */
+
+/* Shimmer Button Effect */
+.btn-shimmer {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-shimmer::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    60deg,
+    transparent 30%,
+    rgba(255, 255, 255, 0.25) 50%,
+    transparent 70%
+  );
+  transform: rotate(30deg) translateX(-100%);
+  transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.btn-shimmer:hover::after {
+  transform: rotate(30deg) translateX(100%);
+}
+
+/* Glowing Colorful Border Card */
+.glow-border-card {
+  position: relative;
+  border-radius: 1.25rem;
+  background: rgba(15, 17, 26, 0.75);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glow-border-card:hover {
+  border-color: rgba(163, 230, 53, 0.4);
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px -15px rgba(163, 230, 53, 0.15),
+              0 0 30px -10px rgba(56, 189, 248, 0.15);
+}
+
+/* ==========================================================
+   FLOATING AMBIENT LIGHT ORBS
+   ========================================================== */
+.ambient-orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(90px);
+  pointer-events: none;
+  opacity: 0.4;
+}
+
+.orb-lime {
+  width: 450px;
+  height: 450px;
+  background: radial-gradient(circle, rgba(163, 230, 53, 0.25) 0%, transparent 70%);
+  animation: orb-float-1 12s ease-in-out infinite alternate;
+}
+
+.orb-cyan {
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(56, 189, 248, 0.22) 0%, transparent 70%);
+  animation: orb-float-2 15s ease-in-out infinite alternate;
+}
+
+.orb-purple {
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(192, 132, 252, 0.2) 0%, transparent 70%);
+  animation: orb-float-1 10s ease-in-out infinite alternate-reverse;
+}
+
+@keyframes orb-float-1 {
+  0% { transform: translate(0, 0) scale(1); }
+  100% { transform: translate(40px, -50px) scale(1.1); }
+}
+
+@keyframes orb-float-2 {
+  0% { transform: translate(0, 0) scale(1.05); }
+  100% { transform: translate(-50px, 30px) scale(0.95); }
+}
+
+/* ==========================================================
+   BACKGROUND GRID & SCROLLBAR
+   ========================================================== */
+.bg-grid-pattern {
+  background-size: 48px 48px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #06070b;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #a3e635, #38bdf8);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #38bdf8, #c084fc);
+}

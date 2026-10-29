@@ -1,0 +1,29 @@
+1:"$Sreact.fragment"
+2:"/_next/static/chunks/27gjg8e11zukd.js"
+3:"/_next/static/chunks/1z2oboy9p9bgr.js"
+4:I[91976,["$2","$3"],"Navbar"]
+5:I[39756,["$2","$3"],"default"]
+6:I[37457,["$2","$3"],"default"]
+7:I[22016,["$2","$3"],""]
+e:I[97367,["$2","$3"],"OutletBoundary"]
+f:"$Sreact.suspense"
+12:"ViewportBoundary"
+13:I[97367,["$2","$3"],"$12"]
+14:"MetadataBoundary"
+15:I[97367,["$2","$3"],"$14"]
+:HL["/_next/static/chunks/2qdqf3vzj-z01.css","style"]
+9:X
+c:X
+c:C
+d:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[["$","main",null,{"className":"min-h-screen flex items-center justify-center px-6 text-center","children":["$","div",null,{"className":"space-y-6 max-w-md","children":[["$","p",null,{"className":"text-5xl font-mono text-accent font-bold","children":"404"}],["$","h1",null,{"className":"text-2xl font-bold text-foreground","children":"Route Not Found"}],["$","p",null,{"className":"text-muted text-sm","children":"The project or page you requested does not exist or has been relocated."}],["$","div",null,{"children":["$","$L7",null,{"href":"/","children":["$","button",null,{"className":"inline-flex items-center justify-center transition-all duration-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent/50 disabled:opacity-50 bg-accent text-background hover:bg-accent-hover font-semibold shadow-lg shadow-accent/10 px-5 py-2.5 text-sm","children":"Return to Homepage"}]}]}]]}]}],null,["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]]}],"p":"$@11","v":null,"s":"$9"}}]]
+a:[["children",{"s":"/_not-found","h":96,"d":{"r":["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@b","v":"$c","s":"$9"},"c":"$Qd"}]]
+0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2qdqf3vzj-z01.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/27gjg8e11zukd.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/1z2oboy9p9bgr.js","async":true}]],["$","html",null,{"lang":"en","className":"dark","children":["$","body",null,{"className":"ec5Qua_variable lnb74a_variable font-sans antialiased bg-background text-foreground flex flex-col min-h-screen","children":[["$","$L4",null,{}],["$","div",null,{"className":"flex-grow","children":["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}],"notFound":[["$","main",null,{"className":"min-h-screen flex items-center justify-center px-6 text-center","children":["$","div",null,{"className":"space-y-6 max-w-md","children":[["$","p",null,{"className":"text-5xl font-mono text-accent font-bold","children":"404"}],["$","h1",null,{"className":"text-2xl font-bold text-foreground","children":"Route Not Found"}],["$","p",null,{"className":"text-muted text-sm","children":"The project or page you requested does not exist or has been relocated."}],["$","div",null,{"children":["$","$L7",null,{"href":"/","children":["$","button",null,{"className":"inline-flex items-center justify-center transition-all duration-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent/50 disabled:opacity-50 bg-accent text-background hover:bg-accent-hover font-semibold shadow-lg shadow-accent/10 px-5 py-2.5 text-sm","children":"Return to Homepage"}]}]}]]}]}],[]]}]}],["$","footer",null,{"className":"border-t border-surface-border bg-background py-12 px-6","children":["$","div",null,{"className":"max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6","children":[["$","div",null,{"children":[["$","p",null,{"className":"font-bold text-foreground","children":"Akdas Amjad"}],["$","p",null,{"className":"text-xs text-muted mt-1","children":["B.Tech in Computer Science and Engineering"," · ","IITM College of Engineering, Janakpuri, New Delhi"]}]]}],["$","div",null,{"className":"flex gap-6 text-xs text-muted","children":[["$","$L7",null,{"href":"/about","className":"hover:text-accent transition-colors","children":"About"}],["$","$L7",null,{"href":"/projects","className":"hover:text-accent transition-colors","children":"Projects"}],["$","$L7",null,{"href":"/contact","className":"hover:text-accent transition-colors","children":"Contact"}],["$","a",null,{"href":"https://github.com/akdasamjad","target":"_blank","rel":"noopener noreferrer","className":"hover:text-accent transition-colors","children":"GitHub"}],["$","a",null,{"href":"https://www.linkedin.com/in/akdas-amjad-a683933b5/","target":"_blank","rel":"noopener noreferrer","className":"hover:text-accent transition-colors","children":"LinkedIn"}]]}],["$","p",null,{"className":"text-xs text-muted","children":["© ",2026," Akdas Amjad. Built with Next.js & Tailwind."]}]]}]}]]}]}]]}],"p":"$@8","v":null,"s":"$9"},"c":"$Qa"},"h":{"r":["$","$1","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$L13",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L15",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$f",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Akdas Amjad | CSE Student & Software Developer"}],["$","meta","1",{"name":"description","content":"Personal portfolio of Akdas Amjad, B.Tech CSE student at IITM College of Engineering, Janakpuri. Showcasing software engineering, AI/ML, and NLP projects."}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@16","v":null,"s":"$9"}},"a":"$@17","u":"$@18","b":"Tub19BHliTUZb1sHImCEQ"}
+10:null
+9:300
+18:true
+9:C
+17:0
+b:"$undefined"
+8:"$undefined"
+16:"$undefined"
+11:"$undefined"
